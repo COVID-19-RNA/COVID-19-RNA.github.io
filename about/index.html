@@ -13,7 +13,7 @@
 <meta property="og:url" content="http://localhost:4000/about/" />
 <meta property="og:site_name" content="COVID-19-RNA" />
 <script type="application/ld+json">
-{"url":"http://localhost:4000/about/","description":"This site includes some automatically predicted secondary and tertiary RNA structure models of the 5’ and 3’ UTR of SARS-CoV-2 (COVID-19). We hope these models may facilitate research on the drug discovery against SARS-CoV-2 (COVID-19).","name":"COVID-19-RNA","@type":"WebSite","headline":"About","@context":"https://schema.org"}</script>
+{"headline":"About","description":"This site includes some automatically predicted secondary and tertiary RNA structure models of the 5’ and 3’ UTR of SARS-CoV-2 (COVID-19). We hope these models may facilitate research on the drug discovery against SARS-CoV-2 (COVID-19).","name":"COVID-19-RNA","@type":"WebSite","url":"http://localhost:4000/about/","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="COVID-19-RNA" /></head>
 <body><header class="site-header" role="banner">
@@ -40,38 +40,16 @@
   </header>
 
   <div class="post-content">
-    <p>«««&lt; HEAD
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at <a href="https://jekyllrb.com/">jekyllrb.com</a></p>
+    <h1 id="methods">Methods</h1>
+<p>We use RNAComposer (Biesiada et al., 2016) to construct the initial 3D structure coordinates. 
+The results were then reformatted by rna-tools (Magnus et al., 2020) and went through 100,000 
+iterations of structure optimization using SimRNA (Boniecki et al., 2016), and the structure 
+with the lowest energy is extracted as the final prediction.</p>
 
-<p>You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-<a href="https://github.com/jekyll/minima">minima</a></p>
-
-<p>You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-<a href="https://github.com/jekyll/jekyll">jekyll</a></p>
-
-<h1 id="jekyll-organization-httpsgithubcomjekyll">[jekyll-organization]: https://github.com/jekyll</h1>
-<h2 id="reference">Reference:</h2>
-<h1 id="sars-cov-2-5utr-may-function-as-an-internal-ribosome-entry-site">SARS-CoV-2 5’UTR may function as an internal ribosome entry site</h1>
-<p>Zhichao Miao, Antonin Tidu, Fatima Alghoul, Pascal Auffinger, Luigi D’Ascenzo, Alvis Brazma, Franck Martin</p>
+<h1 id="contributors">Contributors</h1>
+<p>Zhichao Miao, Antonin Tidu, Fatima Alghoul, Pascal Auffinger, Alvis Brazma, Franck Martin</p>
 
 <p>Please contact <a href="mailto:chichaumiau@gmail.com">Chichau</a> if you want to use any of these predicted structures, or if you wants to have a collaboration.</p>
-<blockquote>
-  <blockquote>
-    <blockquote>
-      <blockquote>
-        <blockquote>
-          <blockquote>
-            <blockquote>
-              <p>COVID-19_V0</p>
-            </blockquote>
-          </blockquote>
-        </blockquote>
-      </blockquote>
-    </blockquote>
-  </blockquote>
-</blockquote>
 
   </div>
 
